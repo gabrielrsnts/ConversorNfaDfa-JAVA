@@ -1,0 +1,16 @@
+{
+    "alphabet": ["0", "1"],
+    "states": ["p", "q", "r", "s"],
+    "transiction": [
+        {"initial": "p", "symbol": "0", "end": ["q", "s"]},
+        {"initial": "p", "symbol": "1", "end": ["q"]},
+        {"initial": "q", "symbol": "0", "end": ["r"]},
+        {"initial": "q", "symbol": "1", "end": ["q", "r"]},
+        {"initial": "r", "symbol": "0", "end": ["s"]},
+        {"initial": "r", "symbol": "1", "end": ["p"]},
+        {"initial": "s", "symbol": "0", "end": "null"},
+        {"initial": "s", "symbol": "1", "end": ["p"]}
+    ],
+    "initial_state": "p",
+    "end_state": ["q", "s"]
+}

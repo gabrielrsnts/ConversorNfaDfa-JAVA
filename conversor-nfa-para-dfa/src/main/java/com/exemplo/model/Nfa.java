@@ -1,6 +1,11 @@
 package com.exemplo.model;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Nfa {
 
@@ -59,6 +64,10 @@ public class Nfa {
 
     public void setTransiction(List<Transicoes> transiction) {
         this.transiction = transiction;
+    }
+
+    public boolean ehEstadoFinal(String estado) {
+        return end_state.contains(estado);
     }
 
 }

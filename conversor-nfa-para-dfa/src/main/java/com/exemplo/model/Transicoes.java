@@ -43,13 +43,6 @@ public class Transicoes {
         this.end = end;
     }
 
-    public boolean temDestino() {
-        return end != null && !end.equals("null") && !((List<String>) end).isEmpty();
-    }
-
-    public boolean levaPara(String estado) {
-        return end != null && ((List<String>) end).contains(estado);
-    }
     
     @Override
     public String toString() {

@@ -1,0 +1,6 @@
+com\exemplo\App.class
+com\exemplo\conversor\ConversorNfaDfa.class
+com\exemplo\util\UtilJackson.class
+com\exemplo\model\Transicoes.class
+com\exemplo\model\Dfa.class
+com\exemplo\model\Nfa.class

@@ -58,12 +58,4 @@ public class Transicoes {
         this.end = end;
     }
 
-    @Override
-    public String toString() {
-        return "Transicoes{"
-                + "initial='" + initial + '\''
-                + ", symbol='" + symbol + '\''
-                + ", end=" + end
-                + '}';
-    }
 }

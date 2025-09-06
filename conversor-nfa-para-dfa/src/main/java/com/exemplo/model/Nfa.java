@@ -1,19 +1,14 @@
 package com.exemplo.model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 public class Nfa {
 
     private List<String> alphabet;
     private List<String> states;
+    private List<Transicoes> transiction;
     private String initial_state;
     private List<String> end_state;
-    private List<Transicoes> transiction;
 
     public Nfa() {
     }

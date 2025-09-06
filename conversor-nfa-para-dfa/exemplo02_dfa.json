@@ -1,0 +1,47 @@
+{
+  "alphabet" : [ "a", "b" ],
+  "states" : [ "S0", "S1", "S2", "S3", "S4" ],
+  "initial_state" : "S0",
+  "end_state" : [ "S3", "S4" ],
+  "transiction" : [ {
+    "initial" : "S0",
+    "symbol" : "a",
+    "end" : [ "S1" ]
+  }, {
+    "initial" : "S0",
+    "symbol" : "b",
+    "end" : [ "S2" ]
+  }, {
+    "initial" : "S1",
+    "symbol" : "a",
+    "end" : [ "S3" ]
+  }, {
+    "initial" : "S1",
+    "symbol" : "b",
+    "end" : [ "S2" ]
+  }, {
+    "initial" : "S2",
+    "symbol" : "a",
+    "end" : [ "S1" ]
+  }, {
+    "initial" : "S2",
+    "symbol" : "b",
+    "end" : [ "S4" ]
+  }, {
+    "initial" : "S3",
+    "symbol" : "a",
+    "end" : [ "S3" ]
+  }, {
+    "initial" : "S3",
+    "symbol" : "b",
+    "end" : [ "S4" ]
+  }, {
+    "initial" : "S4",
+    "symbol" : "a",
+    "end" : [ "S3" ]
+  }, {
+    "initial" : "S4",
+    "symbol" : "b",
+    "end" : [ "S4" ]
+  } ]
+}

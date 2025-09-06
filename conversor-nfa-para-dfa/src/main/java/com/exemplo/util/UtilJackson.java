@@ -1,10 +1,11 @@
 package com.exemplo.util;
 
+import java.io.File;
+
+import com.exemplo.model.Dfa;
 import com.exemplo.model.Nfa;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import java.io.File;
-import com.exemplo.model.Dfa;
 
 public class UtilJackson {
 

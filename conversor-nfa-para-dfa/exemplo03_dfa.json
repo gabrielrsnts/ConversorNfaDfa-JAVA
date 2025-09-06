@@ -1,0 +1,75 @@
+{
+  "alphabet" : [ "0", "1" ],
+  "states" : [ "S0", "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8" ],
+  "initial_state" : "S0",
+  "end_state" : [ "S1", "S2", "S4", "S5", "S6", "S7", "S8" ],
+  "transiction" : [ {
+    "initial" : "S0",
+    "symbol" : "0",
+    "end" : [ "S1" ]
+  }, {
+    "initial" : "S0",
+    "symbol" : "1",
+    "end" : [ "S2" ]
+  }, {
+    "initial" : "S1",
+    "symbol" : "0",
+    "end" : [ "S3" ]
+  }, {
+    "initial" : "S1",
+    "symbol" : "1",
+    "end" : [ "S4" ]
+  }, {
+    "initial" : "S2",
+    "symbol" : "0",
+    "end" : [ "S3" ]
+  }, {
+    "initial" : "S2",
+    "symbol" : "1",
+    "end" : [ "S5" ]
+  }, {
+    "initial" : "S3",
+    "symbol" : "0",
+    "end" : [ "S6" ]
+  }, {
+    "initial" : "S3",
+    "symbol" : "1",
+    "end" : [ "S0" ]
+  }, {
+    "initial" : "S4",
+    "symbol" : "0",
+    "end" : [ "S7" ]
+  }, {
+    "initial" : "S4",
+    "symbol" : "1",
+    "end" : [ "S4" ]
+  }, {
+    "initial" : "S5",
+    "symbol" : "0",
+    "end" : [ "S8" ]
+  }, {
+    "initial" : "S5",
+    "symbol" : "1",
+    "end" : [ "S4" ]
+  }, {
+    "initial" : "S6",
+    "symbol" : "1",
+    "end" : [ "S0" ]
+  }, {
+    "initial" : "S7",
+    "symbol" : "0",
+    "end" : [ "S8" ]
+  }, {
+    "initial" : "S7",
+    "symbol" : "1",
+    "end" : [ "S4" ]
+  }, {
+    "initial" : "S8",
+    "symbol" : "0",
+    "end" : [ "S6" ]
+  }, {
+    "initial" : "S8",
+    "symbol" : "1",
+    "end" : [ "S0" ]
+  } ]
+}
